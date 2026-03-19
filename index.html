@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taxi Long Xuyên</title>
+  <style>
+    body {margin:0;font-family:Arial,sans-serif;background:#f5f5f5;color:#333}
+    header {background:#0d6efd;color:#fff;padding:20px;text-align:center}
+    nav {display:flex;justify-content:center;gap:20px;background:#084298;padding:10px}
+    nav a {color:#fff;text-decoration:none;font-weight:bold}
+    .hero {padding:80px 20px;text-align:center;background:url('https://images.unsplash.com/photo-1519003722824-194d4455a60c') center/cover;color:#fff}
+    .hero h1 {font-size:42px;margin-bottom:10px}
+    .btn {background:#0d6efd;color:#fff;padding:12px 20px;border:none;border-radius:8px;text-decoration:none;font-size:18px;margin:5px;display:inline-block}
+    .section {padding:50px 20px;text-align:center}
+    .services {display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+    .card {background:#fff;padding:20px;border-radius:12px;width:260px;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+    .card:hover {transform:translateY(-5px);transition:0.3s}
+    footer {background:#084298;color:#fff;text-align:center;padding:20px}
+
+    /* Nút gọi + zalo nổi */
+    .floating {
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      z-index:999;
+    }
+    .floating a {
+      background:#0d6efd;
+      color:#fff;
+      padding:12px 15px;
+      border-radius:50px;
+      text-decoration:none;
+      font-size:16px;
+      box-shadow:0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    iframe {width:100%;height:300px;border:0;border-radius:10px}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Taxi Long Xuyên</h1>
+  <p>Dịch vụ taxi uy tín - nhanh chóng - giá tốt</p>
+</header>
+
+<nav>
+  <a href="#">Trang chủ</a>
+  <a href="#services">Dịch vụ</a>
+  <a href="#price">Bảng giá</a>
+  <a href="#map">Bản đồ</a>
+  <a href="#contact">Liên hệ</a>
+</nav>
+
+<section class="hero">
+  <h1>Taxi 24/7 tại Long Xuyên</h1>
+  <p>Xe sạch - tài xế thân thiện - có mặt nhanh</p>
+  <a class="btn" href="tel:0583227227">📞 Gọi ngay</a>
+  <a class="btn" href="https://zalo.me/0583227227" target="_blank">💬 Chat Zalo</a>
+</section>
+
+<section class="section" id="services">
+  <h2>Dịch vụ</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Taxi nội thành</h3>
+      <p>Đón nhanh trong Long Xuyên</p>
+    </div>
+    <div class="card">
+      <h3>Taxi đường dài</h3>
+      <p>Đi tỉnh giá rẻ, xe đời mới</p>
+    </div>
+    <div class="card">
+      <h3>Xe hợp đồng</h3>
+      <p>Du lịch, công tác, cưới hỏi</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="price">
+  <h2>Bảng Giá Dịch Vụ Taxi 4 Chỗ Long Xuyên</h2>
+  <p> Giá mở cửa: 10.000đ/km</p>
+  <p> Di chuyển từ 1-10km: 15.000đ/km</p>
+  <p> Di chuyển từ 11-30km: 12.000đ/km</p>
+  <p> Di chuyển từ trên 30km: 10.000đ/km</p>
+  <h2>Bảng Giá Dịch Vụ Taxi 7 Chỗ Long Xuyên</h2>
+  <p> Giá mở cửa: 10.000đ/km</p>
+  <p> Di chuyển từ trên 30km: 18.000đ/km</p>
+  <p> Di chuyển từ trên 30km: 15.000đ/km</p>
+  <p> Di chuyển từ trên 30km: 12.000đ/km</p>
+</section>
+
+<section class="section" id="map">
+  <h2>Khu vực hoạt động</h2>
+  <iframe src="https://www.google.com/maps?q=Long%20Xuyen&output=embed"></iframe>
+</section>
+
+<section class="section" id="contact">
+  <h2>Liên hệ đặt xe</h2>
+  <p>📞 0583 227 227</p>
+  <p>Zalo: 0583 227 227</p>
+  <p><i>Website chỉ cung cấp thông tin, vui lòng gọi điện để đặt xe</i></p>
+</section>
+
+<footer>
+  <p>© 2026 Huyền Anh Travel</p>
+</footer>
+
+<!-- Nút nổi -->
+<div class="floating">
+  <a href="tel:0583227227">📞 Gọi</a>
+  <a href="https://zalo.me/0583227227" target="_blank">💬 Zalo</a>
+</div>
+
+</body>
+</html>
